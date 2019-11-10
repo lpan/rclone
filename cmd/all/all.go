@@ -34,6 +34,7 @@ import (
 	_ "github.com/rclone/rclone/cmd/lsl"
 	_ "github.com/rclone/rclone/cmd/md5sum"
 	_ "github.com/rclone/rclone/cmd/memtest"
+	_ "github.com/rclone/rclone/cmd/merge"
 	_ "github.com/rclone/rclone/cmd/mkdir"
 	_ "github.com/rclone/rclone/cmd/mount"
 	_ "github.com/rclone/rclone/cmd/move"
