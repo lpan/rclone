@@ -1121,3 +1121,7 @@ func MoveDir(ctx context.Context, fdst, fsrc fs.Fs, deleteEmptySrcDirs bool, cop
 	// Otherwise move the files one by one
 	return moveDir(ctx, fdst, fsrc, deleteEmptySrcDirs, copyEmptySrcDirs)
 }
+
+func Merge(ctx context.Context, fdst, fsrc fs.Fs) error {
+	return nil
+}
